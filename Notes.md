@@ -1,6 +1,8 @@
-## About
+## Strapi
 
-This repository is forked from ONLYOFFICE/Docker-CommunityServer, we have the following modifications are provided
+Strapi 支持多种数据库连接
 
-* replace README.md
-* add README-zh.md, CHANGELOG.md, Note.md, License.md, docker-compose.yml,.env, src, .github folder
+
+### 安装
+
+Strapi 第一次启动时，需要较长的时间 Installing dependencies。请耐心等待
