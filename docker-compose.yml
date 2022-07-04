@@ -42,4 +42,5 @@ services:
 
 networks:
   default:
-      name: ${APP_NETWORK}
+    name: ${APP_NETWORK}
+    external: true
