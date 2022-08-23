@@ -8,7 +8,7 @@ services:
     image: strapi/strapi:${APP_VERSION}
     container_name: ${APP_CONTAINER_NAME}
     ports:
-      - ${APP_PORT}:1337
+      - ${APP_HTTP_PORT}:1337
     volumes:
       - strapi:/srv/app
     environment:
